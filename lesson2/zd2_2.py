@@ -6,4 +6,20 @@
     функцию input().
 """
 
+user = list(input("Введите список элементов: "))
+i = 0
+a = 0
+user1 = []
 
+while i <= len(user):
+    i += 2
+    list1 = (user[a:i])
+    list2 = list1[::-1]
+    a = i
+    user1 = user1 + list2
+
+print(user1)
+
+for i in range(0, len(user), 2):
+    user[i - 1], user[i] = user[i], user[i - 1]]
+print(user)

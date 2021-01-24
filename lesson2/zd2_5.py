@@ -9,5 +9,20 @@
     Пользователь ввел число 1. Результат: 7, 5, 3, 3, 2, 1.
     Набор натуральных чисел можно задать непосредственно в коде, например, my_list = [7, 5, 3, 3, 2].
    """
+my_list = [7, 5, 3, 3, 2]
+list2 = my_list[::-1]
+user = int(input("Введите число: "))
+a = 0
+for i in range(len(list2)):
+    if list2[i] > user:
+        a = i
+        break
+    elif list2[i] == user:
+        a = i
+        break
+    elif list2[i] < user:
+        a = i + 1
+list2.insert(a, user) #проверить можно здесь заменив user на строку
+my_list = list2[::-1]
 
-
+print(my_list)
