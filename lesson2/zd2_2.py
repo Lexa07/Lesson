@@ -19,7 +19,10 @@ while i <= len(user):
     user1 = user1 + list2
 
 print(user1)
+i = 0
+any_list = []
+while i <= 8:
+    x = int(input('Enter any number to your list: '))
+    i += 1
+    any_list.append(x)
 
-for i in range(0, len(user), 2):
-    user[i - 1], user[i] = user[i], user[i - 1]]
-print(user)
