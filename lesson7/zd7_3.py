@@ -60,6 +60,6 @@ print(cell_1 - cell_2)
 print(cell_1 * cell_2)
 print(cell_1 // cell_2)
 
-
+#как то так
 
 
