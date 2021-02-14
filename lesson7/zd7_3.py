@@ -55,6 +55,7 @@ class Cell:
 
 cell_1 = Cell(int(input("Введите число: ")))
 cell_2 = Cell(int(input("Введите второе число: ")))
+cell_2.make_order(5)
 print(cell_1 + cell_2)
 print(cell_1 - cell_2)
 print(cell_1 * cell_2)
